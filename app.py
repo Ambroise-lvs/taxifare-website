@@ -66,7 +66,7 @@ st.subheader("🧍 Passengers")
 passenger_count = st.number_input("Passenger count", min_value=1, max_value=8, value=1)
 
 # ----------- MAP DISPLAY-----------
-st.subheader("🗺️ Map")
+st.subheader("🗺️ Mappp")
 map = pd.DataFrame([[pickup_latitude, pickup_longitude], [dropoff_latitude, dropoff_longitude]], columns=['lat', 'lon'])
 st.map(map, zoom=12)
 
